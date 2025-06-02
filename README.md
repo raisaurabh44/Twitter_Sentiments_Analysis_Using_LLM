@@ -11,6 +11,7 @@ Project Structure
 How to Run
 Results & Insights
 References
+
 Project Overview
 This project explores sentiment analysis using three main types of language models:
 
@@ -36,29 +37,17 @@ Word Embedding Layer: For deep learning models
 Traditional ML: Logistic Regression, SVM, Random Forest (with BoW/TF-IDF)
 Deep Learning: LSTM with embedding layers
 Transformers: (e.g., BERT) for context-aware sentiment classification
-Project Structure
-.
-├── Part-2-Sentiment-Analysis-bow_tf_idf.ipynb      # BoW & TF-IDF with ML models
-├── Part_3_Word2Vec_Embeddings.ipynb                # Word2Vec embeddings & ML/DNN
-├── Part_4_LSTM_and_Transformations.ipynb           # LSTM & Transformer models
-├── data/
-│   └── cleaned_tweets_v1.pkl                       # Preprocessed dataset
-└── README.md                                       # Project documentation
+    # BoW & TF-IDF with ML models
+    # Word2Vec embeddings & ML/DNN
+    # LSTM & Transformer models
+    # Preprocessed dataset
+    # Project documentation
+   
 How to Run
 Clone the repository
 
 git clone https://github.com/yourusername/sentiment-nlp-project.git
 cd sentiment-nlp-project
-Install requirements
-
-pip install -r requirements.txt
-Open Jupyter Notebooks
-
-Run each notebook in order:
-Part-2-Sentiment-Analysis-bow_tf_idf.ipynb
-Part_3_Word2Vec_Embeddings.ipynb
-Part_4_LSTM_and_Transformations.ipynb
-(Optional) Try the Transformer model
 
 Requires transformers and a GPU for best performance.
 Results & Insights
